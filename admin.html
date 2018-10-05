@@ -1,0 +1,279 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/admin.css">
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="fontawesome/all.css">
+<link href="fontawesome/all.css" rel="stylesheet" >
+<link rel="stylesheet" href="css/rippler.min.css">
+</head>
+<body class="home">
+    <!--side menu-->
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation" style="background-color: aqua;">
+                <div class="logo">
+                    <a href="index.html" title="Home page"><img src="images/sai.jpg" alt="merkery_logo" class="hidden-xs hidden-sm">
+                        <img src="images/sai.jpg" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div>
+                <div class="navi">
+                    <ul>                     
+                        <li class="active"><a href="#dashboard" data-toggle="tab" class="rippler rippler-inverse"><i class="fas fa-chart-line" aria-hidden="true"></i><span class="hidden-sm">Dashboard</span></a></li>
+                        <li data-toggle="collapse" data-target="#email" class="collapsed">
+                            <a href="#" class="rippler rippler-inverse"><i class="fas fa-envelope"></i><span class="hidden-sm">Email<span class="caret"></span></span></a>
+                        </li>  
+                        <ul class="collapse" id="email">
+                            <li><a href="#inbox"  data-toggle="tab" class="rippler rippler-inverse">Inbox</a></li>
+                            <li><a href="#">View Mail</a></li>
+                            <li><a href="#">Compose Mail</a></li>
+                        </ul>  
+                 
+              
+              
+                              
+                       
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                               <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                            <div class="search hidden-xs hidden-sm">
+                                <input type="text" placeholder="Search" id="search">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                    <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project"><i class="fas fa-paper-plane"></i> Send</a></li>
+                                    
+                                    <li class="dropdown">
+                                        <a href="#" class="icon-info dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="navbar-content">
+                                                      
+                                                        <p class="text-muted small">
+                                                           Welcome, to PG hostel
+                                                        </p>
+                                                        <div class="divider">
+                                                        </div>
+                                                        <p class="text-muted small">
+                                                                Booking is not success
+                                                             </p>     
+                                                                                                            
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/1.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>p.sai</span>
+                                                    <p class="text-muted small">
+                                                        sai@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="index.html">Log out</a>
+                                                </div>                                               
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+<div  class="tab-content">
+<!--dashboard-->
+<div id="dashboard" class="tab-pane fade in active ">
+        <div class="container">
+                <div class="row">
+                    
+                    
+                    <div class="col-md-6 col-sm-6">
+                          
+                        <div class="progress yellow">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">75%</div>
+                        </div> <h1 class="text-center">New Bookings</h1>
+                    </div>
+                
+              
+                      
+                        <div class="col-md-6 col-sm-6">
+                                
+                            <div class="progress yellow">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">60%</div>
+                            </div><h1 class="text-center">Total Earning</h1>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><b>Booking Details</b><span class="caret"></span></a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                            <div>
+                                                    <table class="table table-stripped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>No</th>
+                                                                <th>Name</th>
+                                                                <th>Check In</th>
+                                                                <th>Check Out</th>
+                                                                <th>Status</th>
+                                                                <th>Phone</th>
+                                                                <th>Room Type</th>
+                                                                <th>Edit</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <td>1</td>
+                                                            <td>p.sai</td>
+                                                            <td>15-08-2018</td>
+                                                            <td>-</td>
+                                                            <td><p class="btn btn-Success btn-sm">PAID</p></td>
+                                                            <td>9533764151</td>
+                                                            <td>2 Sharing</td>
+                                                            <td><a href="#">Edit/Delete</a></td>
+                                                        </tbody>
+                                                       
+                                                            
+                                                           
+                                    
+                                                    </table>
+                                                </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div> 
+                        </div>
+            </div>
+        </div>
+<!--dashboard ending-->
+
+<!--email-->
+<div id="inbox" class="tab-pane fade">
+      <div class="row container panel">
+            <table class="table table-stripped">                    
+                    <tbody>
+                        <td><input type="checkbox"></td>
+                        <td>p.Sai</td>
+                        <td>Light</td>
+                        <td>Not working Properly.</td>
+                        <td></td>
+                        <td>10:27 AM</td>
+                        
+                    </tbody>
+                   
+                       
+                       
+                </table>
+      </div> 
+</div>
+<!--emails ending-->
+
+<!--inbox-->
+<div id="inbox" class="tab-pane fade ">
+
+</div>
+<!--inbox ending-->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--side menu ending-->
+
+<!-- Modal -->
+<div id="add_project" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header login-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Request / Complaint</h4>
+            </div>
+            <div class="modal-body">
+                        <input type="text" placeholder="Your Name" name="name">
+                        <input type="text" placeholder="Request / Complaint" name="mail">                           
+                        <textarea placeholder="Desicrption"></textarea>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="cancel" data-dismiss="modal">Close</button>
+                <button type="button" class="add-project" data-dismiss="modal">Send</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+   <!--js file-->
+    <script src="js/jquery.min.js"></script>
+    <!--bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+    
+<!--rippler js-->
+<script src="js/jquery.rippler.min.js"></script>
+<!--js-->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="offcanvas"]').click(function(){
+      $("#navigation").toggleClass("hidden-xs");
+  });
+});
+</script>
+<!--js ending-->
+<!--rippler-->
+<script>
+    $(document).ready(function() {
+      $(".rippler").rippler({
+        effectClass      :  'rippler-effect'
+        ,effectSize      :  16      // Default size (width & height)
+        ,addElement      :  'div'   // e.g. 'svg'(feature)
+        ,duration        :  400
+      });
+    });
+  </script>
+
+
+</body>
+</html>

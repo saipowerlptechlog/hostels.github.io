@@ -1,0 +1,358 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="fontawesome/all.css">
+<link href="fontawesome/all.css" rel="stylesheet" >
+<link rel="stylesheet" href="css/rippler.min.css">
+</head><style>
+    
+    <style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}</style>
+<body class="home">
+    <!--side menu-->
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a href="index.html" title="Home page"><img src="images/sai.jpg" alt="merkery_logo" class="hidden-xs hidden-sm">
+                        <img src="images/sai.jpg" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div>
+                <div class="navi nav-tab">
+                    <ul>
+                        <li class="active"><a href="#profile"  data-toggle="tab" class="rippler rippler-inverse"><i class="fas fa-user-alt" aria-hidden="true"></i> <span class=" hidden-sm">Profile</span></a></li>
+                        
+                       
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                               <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                            <div class="search hidden-xs hidden-sm">
+                                <input type="text" placeholder="Search" id="search">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                    <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project"><i class="fas fa-paper-plane"></i> Send</a></li>
+                                    
+                                    <li class="dropdown">
+                                        <a href="#" class="icon-info dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="navbar-content">
+                                                      
+                                                        <p class="text-muted small">
+                                                           Welcome, to our hostel
+                                                        </p>
+                                                        <div class="divider">
+                                                        </div>
+                                                        <p class="text-muted small">
+                                                                Booking is not success
+                                                             </p>     
+                                                                                                            
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/per.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>Your name</span>
+                                                    <p class="text-muted small">
+                                                        example@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="index.html">Log out</a>
+                                                </div>                                               
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+<div  class="tab-content">
+<!--profile-->
+<div id="profile" class="tab-pane fade in active ">
+        <h1>Hi sai kumar</h1>
+                  
+            <div class="profile row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panels">   
+                    <div class="text-center">
+                    <p><b>id</b></p>
+                    </div>                        
+                    <img src="images/per.jpg" class="img-rounded pull-left" class="img-rounded">
+                    <div class="p-content">
+                    <p>NAME:p.sai</p>
+                    <p>hyderabad</p>
+                   
+                    </div>
+                </div>                                                                                 
+        </div>
+       
+<!--profile ending-->
+
+<button class="accordion">Orders</button>
+<div class="panel">
+ <div class="row">
+<div class="col-md-5 col-sm-5 col-xs-12 gutter">
+<div class="sales">
+    <h2>Inbox</h2>
+
+    <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Year </span> <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            
+            <a href="#">2018</a>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+    <table class="table table-stripped ">
+        <thead>
+            <th>Text</th>
+            <th>Date</th>
+        </thead>
+        <tbody>
+            <td>Welcome, to our hostel. Your booking is Success. Please wait contact admin...</td>
+           
+            <td>15-08-2018</td>    
+                            
+            </tbody>
+            <tbody>
+                <td>Welcome, to our hostel. Your booking is underprocess. Please wait...</td>
+               
+                <td>15-08-2018</td>    
+                                
+                </tbody>
+    
+
+    </table>
+</div>
+</div>
+</div>
+
+<button class="accordion">Inbox</button>
+<div class="panel">
+ <div class="row">
+<div class="col-md-5 col-sm-5 col-xs-12 gutter">
+<div class="sales">
+    <h2>Inbox</h2>
+
+    <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Year </span> <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            
+            <a href="#">2018</a>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+    <table class="table table-stripped ">
+        <thead>
+            <th>Text</th>
+            <th>Date</th>
+        </thead>
+        <tbody>
+            <td>Welcome, to our hostel. Your booking is Success. Please wait contact admin...</td>
+           
+            <td>15-08-2018</td>    
+                            
+            </tbody>
+            <tbody>
+                <td>Welcome, to our hostel. Your booking is underprocess. Please wait...</td>
+               
+                <td>15-08-2018</td>    
+                                
+                </tbody>
+    
+
+    </table>
+</div>
+</div>
+</div>
+
+<button class="accordion">Complaints</button>
+<div class="panel">
+    <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+        <div class="sales">
+            <h2>Complaints</h2>
+        
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Year </span> <span class="caret"></span>
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <a href="#">2018</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div>
+            <table class="table table-stripped ">
+                <thead>
+                    <th>Message</th>
+                    <th>Order-Date</th>
+                    <th>Delivery-Date</th>
+                    <th >Status</th>
+                </thead>
+                <tbody>
+                        <td>Your complents: room clening is not completed..room no -09 </td>
+                       
+                        <td>03-09-2018</td>    
+                        <td>-</td>
+                        <td><p class="btn btn-info">On the way</p></td>
+                                        
+                        </tbody>   
+                <tbody>
+                    <td>Your complents:AC is not working..room no -09 </td>
+                   
+                    <td>15-08-2018</td>    
+                    <td>22-08-2018</td>
+                    <td><p class="btn btn-success"></p></td>
+                                    
+                    </tbody>    
+                            
+                <tbody>
+                    <td>Your order;- i want one plate rice in my room no-9 </td>
+                   
+                    <td>15-08-2018</td>    
+                    <td>22-08-2018</td>
+                    <td><p class="btn btn-success"></p></td>
+                                    
+                    </tbody>    
+            </table>
+        </div>
+        </div>
+</div>
+<button class="accordion">Others</button>
+<div class="panel">
+    <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+        <div class="sales">
+            <h2>Complaints</h2>
+        
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Year </span> <span class="caret"></span>
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <a href="#">2018</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div>
+            <table class="table table-stripped ">
+                <thead>
+                    <th>Message</th>
+                    <th>Order-Date</th>
+                    <th>Delivery-Date</th>
+                    <th >Status</th>
+                </thead>
+                <tbody>
+                        <td>Your complents: room clening is not completed..room no -09 </td>
+                       
+                        <td>03-09-2018</td>    
+                        <td>-</td>
+                        <td><p class="btn btn-info">On the way</p></td>
+                                        
+                        </tbody>   
+                <tbody>
+                    <td>Your complents:AC is not working..room no -09 </td>
+                   
+                    <td>15-08-2018</td>    
+                    <td>22-08-2018</td>
+                    <td><p class="btn btn-success"></p></td>
+                                    
+                    </tbody>    
+                            
+                <tbody>
+                    <td>Your order;- i want one plate rice in my room no-9 </td>
+                   
+                    <td>15-08-2018</td>    
+                    <td>22-08-2018</td>
+                    <td><p class="btn btn-success"></p></td>
+                                    
+                    </tbody>    
+            </table>
+        </div>
+        </div>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
