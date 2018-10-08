@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from www.etisbew.com/development-services.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Sep 2018 12:37:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Etisbew">
+<meta name="keywords" content="Application Development Services, application development services, offshore application development company, custom application development services, application development solutions">
+<meta name="description" content="ETG Business Application Development Services & Solutions help you address evolving business & technology challenges by defining, designing & building apps tailored to meet your business needs. We develop application development solutions that are of high quality, modular, secure, flexible, easy on maintenance & deployment">
+<meta name="language" content="English">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta property="og:title" content="Application Development Services - Etisbew" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/logo.png" />
+<meta property="og:url" content="development-services.html/index.html" />
+<meta property="og:site_name" content="etisbew" />
+<meta property="og:description" content="ETG Business Application Development Services & Solutions help you address evolving business & technology challenges by defining, designing & building apps tailored to meet your business needs. We develop application development solutions that are of high quality, modular, secure, flexible, easy on maintenance & deployment"/>
+<meta property="fb:app_id" content=" 131102176980546" />
+<meta name="twitter:card" content="Application Development Services | Etisbew" />
+<meta name="twitter:site" content="@EtisbewITcorp" />
+<meta name="twitter:title" content="Application Development Services - Etisbew" />
+<meta name="twitter:description" content="ETG Business Application Development Services & Solutions help you address evolving business & technology challenges by defining, designing & building apps tailored to meet your business needs. We develop application development solutions that are of high quality, modular, secure, flexible, easy on maintenance & deployment" />
+<meta name="twitter:image" content="images/logo.png" />
+<meta name="twitter:url" content="development-services.html/index.html" />
+<title>Application Development Services - Etisbew</title>
+<!--fav icon link-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!--main stylesheet-->
+<link rel="stylesheet" type="text/css"  href="css/fonts.css">
+ <link href="css/aos.css" rel="stylesheet" type="text/css">
+<link href="css/spirte-icon-css.css" rel="stylesheet" type="text/css">
+<link href="css/inner-etg.css" rel="stylesheet" type="text/css">
+<link rel="canonical" href="development-services.html">
+<style>
+.no-js #loader { display: none; }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 99999; background:url(images/loader.svg) center no-repeat #fff ; }
+</style>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJ7N7BL');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body >
+<div class="se-pre-con"></div>
+<div class="header-block">
+  <div class="logo-block left"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+  <nav class="navigation">
+    <ul class="main-menus">
+      <li><a href="ecommerce-services.html"><i class="sprite-icons ecommerce-icon"></i><span>Ecommerce</span></a></li>
+      <li class="active"><a href="application-services.html"><i class="sprite-icons devops-icon"></i><span>AMS</span></a></li>
+      <li><a href="cloud-consulting.html"><i class="sprite-icons cloud-icon"></i><span>Cloud</span></a></li>
+      <li><a href="mobility-services.html"><i class="sprite-icons erp-icon"></i><span>Mobility</span></a></li>
+      <li><a href="sap.html"><i class="sprite-icons sap-icon"></i><span>Sap</span></a></li>
+    </ul>
+    <ul class="inner-menus">
+      <li  class="active"><a href="development-services.html"> <span>Development</span></a></li>
+      <li><a href="application-maintenance.html"> <span>Maintenance</span></a></li>
+      <li><a href="application-migration.html"> <span>Migration</span></a></li>
+      <li><a href="devops.html"> <span>DevOps</span></a></li>
+     </ul>
+    
+  </nav>
+  <div class="barger-icon right">
+    <div id="nav-burger-icon"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
+  </div>
+</div>
+<div class="sideber-menu-block">
+  <ul id="menu">
+    <li><a href="index.html" title="Home">Home</a></li>
+    <li><a href="aboutus.html" title="About Us">About Us</a></li>
+    <li><a href="ecommerce-services.html" title="Ecommerce">Ecommerce</a></li>
+    <li><a href="application-services.html" title="Application Managed Services">AMS</a></li>
+    <li><a href="cloud-consulting.html" title="Cloud">Cloud</a></li>
+    <li><a href="mobility-services.html" title="Mobility">Mobility</a></li>
+    <li><a href="sap.html" title="SAP">SAP</a></li>
+    <li><a href="contactus.html" title="Contact">Contact</a></li>
+    
+  </ul>
+</div>
+<div class="inner-wrapper">
+ 
+ <div class="main-banner" >
+  	<div class="main-banner-image development-banner" style="background-image:url(images/banners/development.jpg);">
+    	<img class="moblie-banner" src="images/banners/development.jpg" alt="">
+        <div class="banner-content">
+        	<h1>We Provide best in class Business Application Development Services & Solutions</h1>
+             
+                <a href="pdfs/Etisbew-AMS-Offerings-Overview.pdf" target="_blank">download brochure</a> </div>
+        </div>
+    </div>
+ 
+         
+        <div class="breadcrumb-menus">
+        <div class="container">
+            <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem"> <a itemscope itemtype="http://schema.org/Thing"
+       itemprop="item" href="index.html"> <span itemprop="name">Home</span> </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem"> <a itemscope itemtype="http://schema.org/Thing"
+       itemprop="item" href="application-services.html"> <span itemprop="name">Application Managed Services</span> </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem"> <span itemprop="name">Development Services</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-block-1">
+    <div class="container">
+       
+ 
+      <div class="right-content-block">
+        <div class="content-intr">
+          <p>ETG Application Development services help you address evolving business and technology challenges by defining, designing and building applications tailored to meet your business requirements.</p>
+            <p>Drawing on our experience in all major technologies and industries, we develop solutions that are of high quality, reliable, modular, secure, flexible, easy on maintenance and deployment. Our team follows one of two approaches to application development wherein, for full lifecycle application projects, we assume complete responsibility for analysis, design, implementation, testing and integration of systems and for cooperative development, we work with your team to jointly analyze, design, implement, test and integrate systems. Both these approaches enable ETG to deliver application services on time and within budget, and to demonstrate immediate testable results.</p>
+            <p>Through its Global Development Centre combining global delivery capabilities with onsite resources ETG enables a complete gathering and understanding of requirements; access to worldwide resource pools; and distribution of work to the most appropriate team members.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> 
+ 
+  
+  <div class="inner-service-block shopify-service-block">
+  	<div class="container">
+    	<h2   data-aos="fade ">To this end, our team will assist our clients with the following</h2>
+     	<div class="services-list-block">
+        	
+        	<ul class="imp-points"   data-aos="fade ">
+            	<li>Creation and documentation of a cogent business strategy and vision</li>
+				<li>Creation of a technology roadmap that includes prioritized strategic projects</li>
+				<li>Business Process Analysis & Modelling</li>
+				<li>Workflow Analysis</li>
+				<li>Object-oriented Modelling</li>
+				<li>Enterprise Integration Architecture</li>
+				<li>Data Warehousing & Business Intelligence Systems Development</li>
+				<li>Web enabling and mobile computing</li>
+				<li>Application Architecture: Designing, Modelling & Planning</li>
+				<li>System & Application development and support</li>
+				<li>Devops as a service (<a href="devops.html" style="color:#fff;text-decoration:underline;">Know more link</a>)</li>
+				<li>Development of Specific Enterprise Applications Including: ERP, CRM, SCM, Portal, B2B, etc.</li>
+            </ul> 
+             
+             
+             
+             
+             
+             
+             
+        </div>
+    </div>
+  </div>
+  
+   
+  
+   
+   
+  <div class="footer-block">
+  	<div class="container">
+    	<h3  data-aos="fade ">Aiming High? Good.</h3>
+        <p  data-aos="fade ">Thank you for your interest in our services. Please provide information about your business needs to help us serve you better. </p>
+        <div class="contact-form-block-inner"  data-aos="fade ">
+            <div id="contactform"></div>
+		</div>
+    </div>
+  </div>
+  
+  <div id="socialMedia"></div>
+  <div id="footer-block"></div>
+ 
+  
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script> <!-- jQuery librarie v2.1.1 --> 
+<!--<script src="js/owl.carousel.js" type="text/javascript"></script> -->
+<script src="js/aos.js" type="text/javascript"></script> 
+<script src="js/all-include.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	$(window).load(function() {
+	$(".se-pre-con").fadeOut("slow");
+});
+	$(window).scroll(function() {    
+		var scroll = $(window).scrollTop();
+		
+		 //>=, not <=
+		if (scroll >= 50) {
+			//clearHeader, not clearheader - caps H
+			$(".header-block").addClass("darkHeader");
+		} else {
+			$(".header-block").removeClass("darkHeader");
+		}
+		AOS.init({
+        offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      });
+	}); 
+	
+	
+	
+	
+	
+
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ7N7BL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+<!-- Mirrored from www.etisbew.com/development-services.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Sep 2018 12:37:16 GMT -->
+</html>
